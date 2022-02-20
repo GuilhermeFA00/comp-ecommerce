@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import aprHome from '../views/apr_home.vue';
 import login from '../views/login.vue';
 import register from '../views/register.vue';
+import basePage from '../views/base_page';
 
 const routes = [
 	{
@@ -23,6 +24,13 @@ const routes = [
 		component: register,
 		meta: {
 			title: "Create now!"
+		}
+	},
+	{
+		path: "/app",
+		component: basePage,
+		meta: {
+			title: "App Fa-ecommmerce"
 		}
 	}
 ];

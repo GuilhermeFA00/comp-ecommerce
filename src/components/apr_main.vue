@@ -118,7 +118,7 @@
                 </section>
 
                 <section class="feature-description">
-                    <router-link to="/login"><a  class="feature-card bg-light h-100">
+                    <router-link to="/login" class="feature-card bg-light h-100"><a  >
                         <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path
@@ -133,7 +133,7 @@
                             </svg>
                         </button>
                     </a></router-link>
-                    <router-link to="/login"><a  class="feature-card bg-light">
+                    <router-link to="/login" class="feature-card bg-light h-100"><a  >
                         <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path
@@ -149,7 +149,7 @@
                             </svg>
                         </button>
                     </a></router-link>
-                    <router-link to="/login"><a  class="feature-card bg-light">
+                    <router-link to="/login" class="feature-card bg-light h-100"><a  >
                         <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path
@@ -164,7 +164,7 @@
                             </svg>
                         </button>
                     </a></router-link>
-                    <router-link to="/login"><a  class="feature-card bg-light">
+                    <router-link to="/login" class="feature-card bg-light h-100"><a  >
                         <svg xmlns="http://www.w3.org/2000/svg" height="50" viewBox="0 0 24 24" width="50">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path
@@ -298,7 +298,7 @@
             </div>
 
             <div class="client-suggestion-gallery w-100">
-                <router-link to="/login"><a  class="grid-photo photo-1 position-relative">
+                <router-link to="/login" class="grid-photo photo-1 position-relative"><a  class="grid-photo photo-1 position-relative">
                     <div class="square position-absolute"></div>
                     <img src="https://i.ibb.co/1XBpL37/gallery1.jpg" />
                     <div class="overlay"></div>
@@ -307,7 +307,7 @@
                         <p class="client-name">John Maybe</p>
                     </div>
                 </a></router-link>
-                <router-link to="/login"><a  class="grid-photo photo-2 position-relative">
+                <router-link to="/login" class="grid-photo photo-2 position-relative"><a >
                     <img src="https://i.ibb.co/hCL18jc/gallery2.jpg" />
                     <div class="overlay"></div>
                     <div class="client-suggestion-avatar d-flex position-absolute align-items-center">
@@ -315,7 +315,7 @@
                         <p class="client-name">John Maybe</p>
                     </div>
                 </a></router-link>
-                <router-link to="/login"><a  class="grid-photo photo-3 position-relative">
+                <router-link to="/login" class="grid-photo photo-3 position-relative"><a  >
                     <img src="https://i.ibb.co/hK4CRg7/gallery3.jpg" />
                     <div class="overlay"></div>
                     <button

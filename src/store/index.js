@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-//import router from '../router/index.js';
+import router from '../router/index.js';
 import { auth } from "../firebase/index.js";
 import {
   createUserWithEmailAndPassword,
@@ -40,6 +40,8 @@ export default createStore({
       }
 
       commit('SET_USER', auth.currentUser);
+
+      router.push("/app");
     },
     async register({ commit }, details) {
       const { email, password } = details
@@ -67,7 +69,9 @@ export default createStore({
         return
       }
 
-      commit('SET_USER', auth.currentUser)
+      commit('SET_USER', auth.currentUser);
+
+      router.push("/app");
     },
     fetchUser({ commit }) {
       auth.onAuthStateChanged(async user => {
@@ -75,6 +79,10 @@ export default createStore({
           commit('CLEAR_USER');
         } else {
           commit('SET_USER', user);
+
+          if (router.isReady() && router.currentRoute.value.path === "/login" || router.currentRoute.value.path === "/register") {
+            router.push("/app");
+          }
         }
       })
     }
