@@ -5,7 +5,7 @@
                 <h2>FA Ecommerce</h2>
             </a>
             <li class="nav-item d-flex mr-auto">
-                <a class="nav-link" >HOME</a>
+                <router-link to="/app"><a class="nav-link" >HOME</a></router-link>
             </li>
             <ul class="navbar-nav d-flex mr-auto">
                 <li class="nav-item">

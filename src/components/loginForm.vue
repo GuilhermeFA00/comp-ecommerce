@@ -1,6 +1,6 @@
 <template>
     <form class="login-container">
-        <h1>TEST</h1>
+        <h1>LOGIN</h1>
         <form class="login" @submit.prevent="login">
             <h1 class="heading">Join Us!</h1>
             <p>E-mail:</p>
